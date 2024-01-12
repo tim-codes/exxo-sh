@@ -8,3 +8,5 @@ const HomePage: NextPage = () => (
     <ColorSchemeToggle />
   </>
 );
+
+export default HomePage;
