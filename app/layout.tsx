@@ -3,6 +3,7 @@ import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import React from 'react';
 import { FCC } from '../lib/types';
 import { theme } from '../theme';
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
   title: "Exxo Labs",
@@ -21,6 +22,7 @@ const RootLayout: FCC = ({ children }) => (
     </head>
     <body>
       <MantineProvider theme={theme}>{children}</MantineProvider>
+      <Analytics />
     </body>
   </html>
 );
