@@ -1,18 +1,19 @@
-import { Title, Text, Anchor } from "@mantine/core";
-import * as classes from "./Welcome.css";
+import { Anchor, Text, Title } from '@mantine/core';
+import { FC } from 'react';
+import * as classes from './Welcome.css';
 
-export function Welcome() {
+export const Welcome: FC = function () {
   return (
     <>
       <Title className={classes.title} ta="center" mt={100}>
-        Welcome to{" "}
+        Exxo
         <Text
           inherit
           variant="gradient"
           component="span"
           gradient={{ from: "pink", to: "yellow" }}
         >
-          Mantine
+          Labs
         </Text>
       </Title>
       <Text color="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
