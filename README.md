@@ -1,5 +1,4 @@
-# Mantine + Next + Vanilla extract template
+# Exxo Labs
 
-Get started with the template by clicking `Use this template` button on the top of the page.
-
-[Documentation](https://mantine.dev/styles/vanilla-extract/)
+## References:
+* [Mantine/Vanilla Extract](https://mantine.dev/styles/vanilla-extract/)
